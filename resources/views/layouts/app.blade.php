@@ -236,6 +236,15 @@ Clients" data-ar="عملاء
                   </div>
                 </a>
               </li>
+              <li>
+                <a href="{{ route('product.crm') }}" class="mobile-client-card">
+                  <i class="fas fa-cash-register" style="color: var(--primary); font-size: 1.2rem;"></i>
+                  <div class="mobile-client-info">
+                    <h4 data-en="CRM & POS" data-ar="إدارة علاقات العملاء ونقاط البيع">CRM & POS</h4>
+                    <p data-en="X9 Smart Point of Sale" data-ar="نظام X9 الذكي لنقاط البيع">X9 Smart Point of Sale</p>
+                  </div>
+                </a>
+              </li>
             </ul>
           </li>
           <li><a href="{{ route('home') }}#testi-sec" data-en="Testimonials" data-ar="آراء العملاء">Testimonials</a></li>

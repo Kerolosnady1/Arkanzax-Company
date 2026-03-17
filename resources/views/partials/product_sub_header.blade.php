@@ -1,3 +1,32 @@
+<style>
+  /* Global product page responsive fixes */
+  .responsive-grid {
+    display: grid;
+    gap: 20px;
+  }
+  @media (max-width: 900px) {
+    .responsive-grid {
+      grid-template-columns: 1fr !important;
+      text-align: center;
+    }
+    /* Fix sub-header overlap on mobile menu */
+    .product-sub-header {
+      z-index: 50 !important;
+    }
+    
+    /* Global Mobile Padding Fix for Product Pages */
+    .inner-hero, .crm-hero-section {
+      padding-top: 180px !important;
+    }
+  }
+  
+  /* Desktop Padding Fix */
+  @media (min-width: 901px) {
+    .inner-hero, .crm-hero-section {
+      padding-top: 220px !important;
+    }
+  }
+</style>
 <div class="product-sub-header">
   <div class="container">
     <nav class="product-sub-nav">

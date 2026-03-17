@@ -69,14 +69,14 @@
             <i class="fas fa-chart-line"></i>
             <div>
               <strong>+247%</strong>
-              <span data-en="Traffic Growth" data-ar="نمو الزيارات">Traffic Growth</span>
+              <span style="color: #000000;" data-en="Traffic Growth" data-ar="نمو الزيارات">Traffic Growth</span>
             </div>
           </div>
           <div class="floating-card card-2">
             <i class="fas fa-robot"></i>
             <div>
               <strong>AI</strong>
-              <span data-en="Campaign Optimized" data-ar="حملة محسّنة">Campaign Optimized</span>
+              <span style="color: #000000;" data-en="Campaign Optimized" data-ar="حملة محسّنة">Campaign Optimized</span>
             </div>
           </div>
         </div>
